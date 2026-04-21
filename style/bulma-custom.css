@@ -1,0 +1,30 @@
+:root {
+  --bulma-link-h: 171deg;
+  --bulma-link-l: 11%;
+  --bulma-success-h: 170deg;
+  --bulma-success-s: 35%;
+  --bulma-success-l: 90%;
+}
+
+/* boutons */
+
+.button:hover{
+    background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-25-l));
+    color: white;
+}
+
+
+/* navbar dans le footer */
+
+.content a:hover{
+    text-decoration: underline;
+}
+
+/* liste à puce */
+.no-bullets {
+    list-style-type: none !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/*image intoduction*/
